@@ -1,4 +1,4 @@
-# Dynamic KV Cache Scheduler: GPU edition
+# Dynamic KV Cache Scheduler
 
 A local pretrained video-QA research prototype with real persistent KV storage at 4, 8 and 16 bits. The CUDA path packs two 4-bit values per byte and unpacks historical tiles inside causal attention. No model training, cloud compute, paid API or external judge is used.
 
