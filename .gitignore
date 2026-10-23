@@ -1,0 +1,29 @@
+.runtime/
+models/
+data/*.zip
+data/videos/
+__pycache__/
+.pytest_cache/
+*.pyc
+results/raw/*.pt
+results/raw/*.npy
+tmp/
+/data/
+/archives/
+
+# Additional local environments, intermediate tensors, and credentials
+/.venv/
+/venv/
+.mypy_cache/
+.ruff_cache/
+*.pyo
+/results/raw/*.pth
+/results/raw/*.npz
+.env
+.env.*
+!.env.example
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

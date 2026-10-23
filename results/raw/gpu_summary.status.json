@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 0.7573043000011239,
+  "command": [
+    "scripts.summarize_gpu"
+  ],
+  "workspace_bytes": 11490567595
+}

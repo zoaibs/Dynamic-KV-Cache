@@ -1,0 +1,498 @@
+{
+  "native": {
+    "prediction": 1,
+    "label": "B",
+    "predicted_text": "Scattering something down",
+    "logits": [
+      8.875,
+      10.9375,
+      9.5
+    ],
+    "correct": false
+  },
+  "16": {
+    "answer": {
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.875,
+        10.9375,
+        9.5
+      ],
+      "correct": false
+    },
+    "cache": {
+      "cpu_payload_bytes": 8570880,
+      "cpu_metadata_bytes": 28800,
+      "cpu_cache_bytes": 8599680,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "bytes_by_precision": {
+        "4": 0,
+        "8": 0,
+        "16": 8599680
+      }
+    },
+    "trace": [
+      {
+        "bits": 16,
+        "edge_raw": 0.07708333333333334,
+        "motion_raw": 0.0,
+        "difference_raw": 0.0,
+        "edge": 0.3854166666666667,
+        "motion": 0.0,
+        "difference": 0.0,
+        "score": 0.115625,
+        "first_frame": true,
+        "missing": false,
+        "start": 15,
+        "end": 93,
+        "visual_tokens": 64,
+        "source_index": 0,
+        "seconds": 0.0
+      },
+      {
+        "bits": 16,
+        "edge_raw": 0.006510416666666667,
+        "motion_raw": 6.314292907714844,
+        "difference_raw": 0.18489666283130646,
+        "edge": 0.032552083333333336,
+        "motion": 0.7892866134643555,
+        "difference": 0.7395866513252258,
+        "score": 0.54735626578331,
+        "first_frame": false,
+        "missing": false,
+        "start": 93,
+        "end": 171,
+        "visual_tokens": 64,
+        "source_index": 20,
+        "seconds": 1.6666666666666667
+      },
+      {
+        "bits": 16,
+        "edge_raw": 0.028958333333333332,
+        "motion_raw": 5.601369380950928,
+        "difference_raw": 0.24698837101459503,
+        "edge": 0.14479166666666665,
+        "motion": 0.700171172618866,
+        "difference": 0.9879534840583801,
+        "score": 0.6198920142650605,
+        "first_frame": false,
+        "missing": false,
+        "start": 171,
+        "end": 249,
+        "visual_tokens": 64,
+        "source_index": 40,
+        "seconds": 3.3333333333333335
+      },
+      {
+        "bits": 16,
+        "edge_raw": 0.04546875,
+        "motion_raw": 5.589107513427734,
+        "difference_raw": 0.2680790424346924,
+        "edge": 0.22734375,
+        "motion": 0.6986384391784668,
+        "difference": 1.0,
+        "score": 0.6476585006713867,
+        "first_frame": false,
+        "missing": false,
+        "start": 249,
+        "end": 327,
+        "visual_tokens": 64,
+        "source_index": 61,
+        "seconds": 5.083333333333333
+      }
+    ],
+    "retrievals": 450,
+    "qa_vision_calls": 0
+  },
+  "8": {
+    "answer": {
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.75,
+        11.0,
+        9.5
+      ],
+      "correct": false
+    },
+    "cache": {
+      "cpu_payload_bytes": 4976640,
+      "cpu_metadata_bytes": 478080,
+      "cpu_cache_bytes": 5454720,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "bytes_by_precision": {
+        "4": 0,
+        "8": 4062720,
+        "16": 1392000
+      }
+    },
+    "trace": [
+      {
+        "bits": 8,
+        "edge_raw": 0.07708333333333334,
+        "motion_raw": 0.0,
+        "difference_raw": 0.0,
+        "edge": 0.3854166666666667,
+        "motion": 0.0,
+        "difference": 0.0,
+        "score": 0.115625,
+        "first_frame": true,
+        "missing": false,
+        "start": 15,
+        "end": 93,
+        "visual_tokens": 64,
+        "source_index": 0,
+        "seconds": 0.0
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.006510416666666667,
+        "motion_raw": 6.314292907714844,
+        "difference_raw": 0.18489666283130646,
+        "edge": 0.032552083333333336,
+        "motion": 0.7892866134643555,
+        "difference": 0.7395866513252258,
+        "score": 0.54735626578331,
+        "first_frame": false,
+        "missing": false,
+        "start": 93,
+        "end": 171,
+        "visual_tokens": 64,
+        "source_index": 20,
+        "seconds": 1.6666666666666667
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.028958333333333332,
+        "motion_raw": 5.601369380950928,
+        "difference_raw": 0.24698837101459503,
+        "edge": 0.14479166666666665,
+        "motion": 0.700171172618866,
+        "difference": 0.9879534840583801,
+        "score": 0.6198920142650605,
+        "first_frame": false,
+        "missing": false,
+        "start": 171,
+        "end": 249,
+        "visual_tokens": 64,
+        "source_index": 40,
+        "seconds": 3.3333333333333335
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.04546875,
+        "motion_raw": 5.589107513427734,
+        "difference_raw": 0.2680790424346924,
+        "edge": 0.22734375,
+        "motion": 0.6986384391784668,
+        "difference": 1.0,
+        "score": 0.6476585006713867,
+        "first_frame": false,
+        "missing": false,
+        "start": 249,
+        "end": 327,
+        "visual_tokens": 64,
+        "source_index": 61,
+        "seconds": 5.083333333333333
+      }
+    ],
+    "retrievals": 450,
+    "qa_vision_calls": 0
+  },
+  "4": {
+    "answer": {
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.9375,
+        11.25,
+        9.5625
+      ],
+      "correct": false
+    },
+    "cache": {
+      "cpu_payload_bytes": 3179520,
+      "cpu_metadata_bytes": 478080,
+      "cpu_cache_bytes": 3657600,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "bytes_by_precision": {
+        "4": 2265600,
+        "8": 0,
+        "16": 1392000
+      }
+    },
+    "trace": [
+      {
+        "bits": 4,
+        "edge_raw": 0.07708333333333334,
+        "motion_raw": 0.0,
+        "difference_raw": 0.0,
+        "edge": 0.3854166666666667,
+        "motion": 0.0,
+        "difference": 0.0,
+        "score": 0.115625,
+        "first_frame": true,
+        "missing": false,
+        "start": 15,
+        "end": 93,
+        "visual_tokens": 64,
+        "source_index": 0,
+        "seconds": 0.0
+      },
+      {
+        "bits": 4,
+        "edge_raw": 0.006510416666666667,
+        "motion_raw": 6.314292907714844,
+        "difference_raw": 0.18489666283130646,
+        "edge": 0.032552083333333336,
+        "motion": 0.7892866134643555,
+        "difference": 0.7395866513252258,
+        "score": 0.54735626578331,
+        "first_frame": false,
+        "missing": false,
+        "start": 93,
+        "end": 171,
+        "visual_tokens": 64,
+        "source_index": 20,
+        "seconds": 1.6666666666666667
+      },
+      {
+        "bits": 4,
+        "edge_raw": 0.028958333333333332,
+        "motion_raw": 5.601369380950928,
+        "difference_raw": 0.24698837101459503,
+        "edge": 0.14479166666666665,
+        "motion": 0.700171172618866,
+        "difference": 0.9879534840583801,
+        "score": 0.6198920142650605,
+        "first_frame": false,
+        "missing": false,
+        "start": 171,
+        "end": 249,
+        "visual_tokens": 64,
+        "source_index": 40,
+        "seconds": 3.3333333333333335
+      },
+      {
+        "bits": 4,
+        "edge_raw": 0.04546875,
+        "motion_raw": 5.589107513427734,
+        "difference_raw": 0.2680790424346924,
+        "edge": 0.22734375,
+        "motion": 0.6986384391784668,
+        "difference": 1.0,
+        "score": 0.6476585006713867,
+        "first_frame": false,
+        "missing": false,
+        "start": 249,
+        "end": 327,
+        "visual_tokens": 64,
+        "source_index": 61,
+        "seconds": 5.083333333333333
+      }
+    ],
+    "retrievals": 450,
+    "qa_vision_calls": 0
+  },
+  "dynamic": {
+    "answer": {
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.875,
+        11.1875,
+        9.75
+      ],
+      "correct": false
+    },
+    "cache": {
+      "cpu_payload_bytes": 4527360,
+      "cpu_metadata_bytes": 478080,
+      "cpu_cache_bytes": 5005440,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "bytes_by_precision": {
+        "4": 566400,
+        "8": 3047040,
+        "16": 1392000
+      }
+    },
+    "trace": [
+      {
+        "bits": 4,
+        "edge_raw": 0.07708333333333334,
+        "motion_raw": 0.0,
+        "difference_raw": 0.0,
+        "edge": 0.3854166666666667,
+        "motion": 0.0,
+        "difference": 0.0,
+        "score": 0.115625,
+        "first_frame": true,
+        "missing": false,
+        "start": 15,
+        "end": 93,
+        "visual_tokens": 64,
+        "source_index": 0,
+        "seconds": 0.0
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.006510416666666667,
+        "motion_raw": 6.314292907714844,
+        "difference_raw": 0.18489666283130646,
+        "edge": 0.032552083333333336,
+        "motion": 0.7892866134643555,
+        "difference": 0.7395866513252258,
+        "score": 0.54735626578331,
+        "first_frame": false,
+        "missing": false,
+        "start": 93,
+        "end": 171,
+        "visual_tokens": 64,
+        "source_index": 20,
+        "seconds": 1.6666666666666667
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.028958333333333332,
+        "motion_raw": 5.601369380950928,
+        "difference_raw": 0.24698837101459503,
+        "edge": 0.14479166666666665,
+        "motion": 0.700171172618866,
+        "difference": 0.9879534840583801,
+        "score": 0.6198920142650605,
+        "first_frame": false,
+        "missing": false,
+        "start": 171,
+        "end": 249,
+        "visual_tokens": 64,
+        "source_index": 40,
+        "seconds": 3.3333333333333335
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.04546875,
+        "motion_raw": 5.589107513427734,
+        "difference_raw": 0.2680790424346924,
+        "edge": 0.22734375,
+        "motion": 0.6986384391784668,
+        "difference": 1.0,
+        "score": 0.6476585006713867,
+        "first_frame": false,
+        "missing": false,
+        "start": 249,
+        "end": 327,
+        "visual_tokens": 64,
+        "source_index": 61,
+        "seconds": 5.083333333333333
+      }
+    ],
+    "retrievals": 450,
+    "qa_vision_calls": 0
+  },
+  "mixed_integration_test": {
+    "answer": {
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.8125,
+        11.0,
+        9.5
+      ],
+      "correct": false
+    },
+    "cache": {
+      "cpu_payload_bytes": 4976640,
+      "cpu_metadata_bytes": 365760,
+      "cpu_cache_bytes": 5342400,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "bytes_by_precision": {
+        "4": 1132800,
+        "8": 1015680,
+        "16": 3193920
+      }
+    },
+    "trace": [
+      {
+        "bits": 4,
+        "edge_raw": 0.07708333333333334,
+        "motion_raw": 0.0,
+        "difference_raw": 0.0,
+        "edge": 0.3854166666666667,
+        "motion": 0.0,
+        "difference": 0.0,
+        "score": 0.115625,
+        "first_frame": true,
+        "missing": false,
+        "start": 15,
+        "end": 93,
+        "visual_tokens": 64,
+        "source_index": 0,
+        "seconds": 0.0
+      },
+      {
+        "bits": 8,
+        "edge_raw": 0.006510416666666667,
+        "motion_raw": 6.314292907714844,
+        "difference_raw": 0.18489666283130646,
+        "edge": 0.032552083333333336,
+        "motion": 0.7892866134643555,
+        "difference": 0.7395866513252258,
+        "score": 0.54735626578331,
+        "first_frame": false,
+        "missing": false,
+        "start": 93,
+        "end": 171,
+        "visual_tokens": 64,
+        "source_index": 20,
+        "seconds": 1.6666666666666667
+      },
+      {
+        "bits": 16,
+        "edge_raw": 0.028958333333333332,
+        "motion_raw": 5.601369380950928,
+        "difference_raw": 0.24698837101459503,
+        "edge": 0.14479166666666665,
+        "motion": 0.700171172618866,
+        "difference": 0.9879534840583801,
+        "score": 0.6198920142650605,
+        "first_frame": false,
+        "missing": false,
+        "start": 171,
+        "end": 249,
+        "visual_tokens": 64,
+        "source_index": 40,
+        "seconds": 3.3333333333333335
+      },
+      {
+        "bits": 4,
+        "edge_raw": 0.04546875,
+        "motion_raw": 5.589107513427734,
+        "difference_raw": 0.2680790424346924,
+        "edge": 0.22734375,
+        "motion": 0.6986384391784668,
+        "difference": 1.0,
+        "score": 0.6476585006713867,
+        "first_frame": false,
+        "missing": false,
+        "start": 249,
+        "end": 327,
+        "visual_tokens": 64,
+        "source_index": 61,
+        "seconds": 5.083333333333333
+      }
+    ],
+    "retrievals": 450,
+    "qa_vision_calls": 0
+  }
+}

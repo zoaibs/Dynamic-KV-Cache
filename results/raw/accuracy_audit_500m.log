@@ -1,0 +1,56 @@
+500m audit 1/24
+500m audit 2/24
+500m audit 3/24
+500m audit 4/24
+500m audit 5/24
+500m audit 6/24
+500m audit 7/24
+500m audit 8/24
+500m audit 9/24
+500m audit 10/24
+500m audit 11/24
+500m audit 12/24
+500m audit 13/24
+500m audit 14/24
+500m audit 15/24
+500m audit 16/24
+500m audit 17/24
+500m audit 18/24
+500m audit 19/24
+500m audit 20/24
+500m audit 21/24
+500m audit 22/24
+500m audit 23/24
+500m audit 24/24
+{
+  "label": {
+    "accuracy": 0.5138888888888888,
+    "no_video_accuracy": 0.3194444444444444,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "label_space": {
+    "accuracy": 0.5555555555555556,
+    "no_video_accuracy": 0.5138888888888888,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "label_leading": {
+    "accuracy": 0.4583333333333333,
+    "no_video_accuracy": 0.4722222222222222,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "candidate": {
+    "accuracy": 0.75,
+    "no_video_accuracy": 0.4166666666666667,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "candidate_calibrated": {
+    "accuracy": 0.5833333333333334,
+    "no_video_accuracy": 0.3333333333333333,
+    "observations": 72,
+    "unique_videos": 24
+  }
+}

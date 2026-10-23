@@ -1,0 +1,24 @@
+native label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [8.625, 10.875, 9.375], 'rotation': 0, 'protocol': 'label'}
+native label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.3125, 12.5, 13.1875], 'rotation': 0, 'protocol': 'label_space'}
+native candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.2941203117370605, -6.17988395690918, -5.107481956481934], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 0.8568632999958936 {'gpu_cache_used_bytes': 7534080, 'gpu_cache_allocated_bytes': 7534080, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 7534080, 'quantization_metadata_bytes': 0, 'token_mapping_bytes': 0, 'used_tokens': 327}
+native_gqa label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [8.8125, 10.875, 9.5625], 'rotation': 0, 'protocol': 'label'}
+native_gqa label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.3125, 12.375, 13.1875], 'rotation': 0, 'protocol': 'label_space'}
+native_gqa candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.408424377441406, -6.146553039550781, -5.121820449829102], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 0.6704055999871343 {'gpu_cache_used_bytes': 7534080, 'gpu_cache_allocated_bytes': 7534080, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 7534080, 'quantization_metadata_bytes': 0, 'token_mapping_bytes': 0, 'used_tokens': 327}
+fused16 label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [8.8125, 11.0, 9.4375], 'rotation': 0, 'protocol': 'label'}
+fused16 label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.625, 12.875, 13.5625], 'rotation': 0, 'protocol': 'label_space'}
+fused16 candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.385102272033691, -6.14684534072876, -5.086768627166748], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 10.42342480001389 {'gpu_cache_used_bytes': 7535715, 'gpu_cache_allocated_bytes': 11980515, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 7534080, 'quantization_metadata_bytes': 0, 'token_mapping_bytes': 1635, 'reserved_tokens': 519, 'used_tokens': 327, 'precision_token_counts': {4: 0, 8: 0, 16: 327}}
+8 label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [9.0, 11.125, 9.75], 'rotation': 0, 'protocol': 'label'}
+8 label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.6875, 12.9375, 13.625], 'rotation': 0, 'protocol': 'label_space'}
+8 candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.34895658493042, -6.153839111328125, -5.078348159790039], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 17.217593100009253 {'gpu_cache_used_bytes': 4390755, 'gpu_cache_allocated_bytes': 8822595, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 3939840, 'quantization_metadata_bytes': 449280, 'token_mapping_bytes': 1635, 'reserved_tokens': 519, 'used_tokens': 327, 'precision_token_counts': {4: 0, 8: 312, 16: 15}}
+4 label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [9.0, 11.1875, 9.8125], 'rotation': 0, 'protocol': 'label'}
+4 label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.375, 12.625, 13.125], 'rotation': 0, 'protocol': 'label_space'}
+4 candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.6886138916015625, -6.271849155426025, -5.284974098205566], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 17.864899400010472 {'gpu_cache_used_bytes': 2593635, 'gpu_cache_allocated_bytes': 7031235, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 2142720, 'quantization_metadata_bytes': 449280, 'token_mapping_bytes': 1635, 'reserved_tokens': 519, 'used_tokens': 327, 'precision_token_counts': {4: 312, 8: 0, 16: 15}}
+dynamic label {'prediction': 1, 'predicted_text': 'Scattering something down', 'correct': False, 'scores': [8.8125, 10.9375, 9.625], 'rotation': 0, 'protocol': 'label'}
+dynamic label_space {'prediction': 0, 'predicted_text': 'Not sure', 'correct': False, 'scores': [13.75, 13.0, 13.5625], 'rotation': 0, 'protocol': 'label_space'}
+dynamic candidate {'prediction': 2, 'predicted_text': 'Piling something up', 'correct': True, 'scores': [-6.479243278503418, -6.105921745300293, -5.063058853149414], 'rotation': 0, 'protocol': 'candidate'}
+mode seconds 13.615031199995428 {'gpu_cache_used_bytes': 4278435, 'gpu_cache_allocated_bytes': 8703075, 'cpu_cache_payload_bytes': 0, 'payload_bytes': 3939840, 'quantization_metadata_bytes': 336960, 'token_mapping_bytes': 1635, 'reserved_tokens': 519, 'used_tokens': 327, 'precision_token_counts': {4: 156, 8: 78, 16: 93}}

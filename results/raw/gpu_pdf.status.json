@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 0.7581109999737237,
+  "command": [
+    "scripts.render_paper"
+  ],
+  "workspace_bytes": 11490517965
+}

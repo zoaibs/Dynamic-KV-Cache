@@ -1,0 +1,32 @@
+{
+  "label": {
+    "accuracy": 0.39814814814814814,
+    "no_video_accuracy": 0.28240740740740733,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "label_space": {
+    "accuracy": 0.46759259259259256,
+    "no_video_accuracy": 0.42592592592592593,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "label_leading": {
+    "accuracy": 0.39583333333333326,
+    "no_video_accuracy": 0.39814814814814814,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "candidate": {
+    "accuracy": 0.6388888888888888,
+    "no_video_accuracy": 0.3333333333333333,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "candidate_calibrated": {
+    "accuracy": 0.5,
+    "no_video_accuracy": 0.30555555555555547,
+    "observations": 120,
+    "unique_videos": 36
+  }
+}

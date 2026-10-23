@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\scripts\gpu_model_smoke.py", line 28, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\scripts\gpu_model_smoke.py", line 18, in main
+    records.append(dict(mode=mode,protocol=protocol,**result))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'protocol'

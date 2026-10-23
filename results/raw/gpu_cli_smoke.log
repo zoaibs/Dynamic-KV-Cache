@@ -1,0 +1,420 @@
+{
+  "sample_id": "action_antonym_000",
+  "task": "action_antonym",
+  "mode": "dynamic",
+  "requested_frames": 16,
+  "actual_frames": 16,
+  "latency_seconds": 4.461140200000955,
+  "prepare_seconds": 0.47629250001045875,
+  "vision_seconds": 0.6272019000025466,
+  "feature_seconds": 0.10766099998727441,
+  "decode_seconds": 0.03476539999246597,
+  "feature_wait_seconds": 3.200001083314419e-05,
+  "features_overlap_vision": true,
+  "preprocessing_seconds": 0.43894289998570457,
+  "decoder_seconds": 3.144487699988531,
+  "qa_seconds": 0.20936370000708848,
+  "frames_per_second": 3.586527049743152,
+  "qa_per_second": 0.224157940608947,
+  "gpu_peak_allocated_bytes": 1222601216,
+  "gpu_peak_reserved_bytes": 1442840576,
+  "gpu_decoder_peak_allocated_bytes": 1110226432,
+  "gpu_decoder_peak_reserved_bytes": 1442840576,
+  "cache": {
+    "gpu_cache_used_bytes": 28575915,
+    "gpu_cache_allocated_bytes": 44113920,
+    "cpu_cache_payload_bytes": 0,
+    "payload_bytes": 25374720,
+    "quantization_metadata_bytes": 3194880,
+    "token_mapping_bytes": 6315,
+    "logical_index_capacity": 8192,
+    "precision_pool_capacities": {
+      "4": 128,
+      "8": 1728,
+      "16": 64
+    },
+    "used_tokens": 1263,
+    "precision_token_counts": {
+      "4": 78,
+      "8": 1170,
+      "16": 15
+    }
+  },
+  "answer": {
+    "prediction": 2,
+    "predicted_text": "Piling something up",
+    "correct": true,
+    "scores": [
+      -5.627842426300049,
+      -6.6183648109436035,
+      -4.368366241455078
+    ],
+    "rotation": 0,
+    "protocol": "candidate"
+  },
+  "bits": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    4,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "information_scores": [
+    0.10268863833477887,
+    0.6883132801566966,
+    0.7359397927459573,
+    0.7522382539036955,
+    0.8419774501300954,
+    0.8023987165878301,
+    0.8537727666955768,
+    0.514367787081287,
+    0.8422728018255103,
+    0.6796657427442142,
+    0.8385776235906331,
+    0.8192888117953165,
+    0.8531483087597572,
+    0.8339288811795317,
+    0.7866448637371535,
+    0.7980723413748207
+  ],
+  "computed_features": [
+    0.2,
+    0.4,
+    0.4
+  ],
+  "raw_features": [
+    {
+      "edge_raw": 0.07708333333333334,
+      "motion_raw": 0.0,
+      "difference_raw": 0.0,
+      "edge": 0.3854166666666667,
+      "motion": 0.0,
+      "difference": 0.0,
+      "score": 0.115625,
+      "first_frame": true,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.07833333333333334,
+      "motion_raw": 4.328366756439209,
+      "difference_raw": 0.07027921080589294,
+      "edge": 0.39166666666666666,
+      "motion": 0.5410458445549011,
+      "difference": 0.2811168432235718,
+      "score": 0.418253390789032,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.0821875,
+      "motion_raw": 4.5794878005981445,
+      "difference_raw": 0.07710354775190353,
+      "edge": 0.41093749999999996,
+      "motion": 0.5724359750747681,
+      "difference": 0.30841419100761414,
+      "score": 0.4447798973321915,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.06583333333333333,
+      "motion_raw": 7.056293964385986,
+      "difference_raw": 0.08437541127204895,
+      "edge": 0.3291666666666666,
+      "motion": 0.8820367455482483,
+      "difference": 0.3375016450881958,
+      "score": 0.552815191745758,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.031510416666666666,
+      "motion_raw": 10.335809707641602,
+      "difference_raw": 0.2116582989692688,
+      "edge": 0.15755208333333331,
+      "motion": 1.0,
+      "difference": 0.8466331958770752,
+      "score": 0.7012555837631226,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.006510416666666667,
+      "motion_raw": 4.686760902404785,
+      "difference_raw": 0.316333532333374,
+      "edge": 0.032552083333333336,
+      "motion": 0.5858451128005981,
+      "difference": 1.0,
+      "score": 0.5441036701202393,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.040364583333333336,
+      "motion_raw": 5.075088977813721,
+      "difference_raw": 0.22393116354942322,
+      "edge": 0.20182291666666666,
+      "motion": 0.6343861222267151,
+      "difference": 0.8957246541976929,
+      "score": 0.5830187201499939,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.0184375,
+      "motion_raw": 3.458932399749756,
+      "difference_raw": 0.06354473531246185,
+      "edge": 0.09218749999999999,
+      "motion": 0.4323665499687195,
+      "difference": 0.2541789412498474,
+      "score": 0.276856552362442,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.03515625,
+      "motion_raw": 4.707149028778076,
+      "difference_raw": 0.14902329444885254,
+      "edge": 0.17578125,
+      "motion": 0.5883936285972595,
+      "difference": 0.5960931777954102,
+      "score": 0.46691977977752686,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.03796875,
+      "motion_raw": 6.739427089691162,
+      "difference_raw": 0.0730678141117096,
+      "edge": 0.18984375,
+      "motion": 0.8424283862113953,
+      "difference": 0.2922712564468384,
+      "score": 0.48160585641860965,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.028958333333333332,
+      "motion_raw": 9.830033302307129,
+      "difference_raw": 0.21255166828632355,
+      "edge": 0.14479166666666665,
+      "motion": 1.0,
+      "difference": 0.8502066731452942,
+      "score": 0.6984995019435883,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.014479166666666666,
+      "motion_raw": 5.149407386779785,
+      "difference_raw": 0.4584742486476898,
+      "edge": 0.07239583333333333,
+      "motion": 0.6436759233474731,
+      "difference": 1.0,
+      "score": 0.5791891193389893,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.03989583333333333,
+      "motion_raw": 5.422123908996582,
+      "difference_raw": 0.4627065062522888,
+      "edge": 0.19947916666666665,
+      "motion": 0.6777654886245728,
+      "difference": 1.0,
+      "score": 0.6309499454498291,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.02546875,
+      "motion_raw": 6.382166862487793,
+      "difference_raw": 0.2096981257200241,
+      "edge": 0.12734374999999998,
+      "motion": 0.7977708578109741,
+      "difference": 0.8387925028800964,
+      "score": 0.6089492189884186,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.04328125,
+      "motion_raw": 4.373160362243652,
+      "difference_raw": 0.11533618718385696,
+      "edge": 0.21640625,
+      "motion": 0.5466450452804565,
+      "difference": 0.46134474873542786,
+      "score": 0.421983317732811,
+      "first_frame": false,
+      "missing": false
+    },
+    {
+      "edge_raw": 0.04546875,
+      "motion_raw": 5.729830265045166,
+      "difference_raw": 0.10764746367931366,
+      "edge": 0.22734375,
+      "motion": 0.7162287831306458,
+      "difference": 0.43058985471725464,
+      "score": 0.48387159466743473,
+      "first_frame": false,
+      "missing": false
+    }
+  ],
+  "frame_map": [
+    {
+      "frame_id": 0,
+      "start": 15,
+      "end": 93,
+      "bits": 8,
+      "source_index": 0,
+      "seconds": 0.0,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 1,
+      "start": 93,
+      "end": 171,
+      "bits": 8,
+      "source_index": 4,
+      "seconds": 0.3333333333333333,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 2,
+      "start": 171,
+      "end": 249,
+      "bits": 8,
+      "source_index": 8,
+      "seconds": 0.6666666666666666,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 3,
+      "start": 249,
+      "end": 327,
+      "bits": 8,
+      "source_index": 12,
+      "seconds": 1.0,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 4,
+      "start": 327,
+      "end": 405,
+      "bits": 8,
+      "source_index": 16,
+      "seconds": 1.3333333333333333,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 5,
+      "start": 405,
+      "end": 483,
+      "bits": 8,
+      "source_index": 20,
+      "seconds": 1.6666666666666667,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 6,
+      "start": 483,
+      "end": 561,
+      "bits": 8,
+      "source_index": 24,
+      "seconds": 2.0,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 7,
+      "start": 561,
+      "end": 639,
+      "bits": 4,
+      "source_index": 28,
+      "seconds": 2.3333333333333335,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 8,
+      "start": 639,
+      "end": 717,
+      "bits": 8,
+      "source_index": 32,
+      "seconds": 2.6666666666666665,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 9,
+      "start": 717,
+      "end": 795,
+      "bits": 8,
+      "source_index": 36,
+      "seconds": 3.0,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 10,
+      "start": 795,
+      "end": 873,
+      "bits": 8,
+      "source_index": 40,
+      "seconds": 3.3333333333333335,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 11,
+      "start": 873,
+      "end": 951,
+      "bits": 8,
+      "source_index": 44,
+      "seconds": 3.6666666666666665,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 12,
+      "start": 951,
+      "end": 1029,
+      "bits": 8,
+      "source_index": 48,
+      "seconds": 4.0,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 13,
+      "start": 1029,
+      "end": 1107,
+      "bits": 8,
+      "source_index": 52,
+      "seconds": 4.333333333333333,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 14,
+      "start": 1107,
+      "end": 1185,
+      "bits": 8,
+      "source_index": 56,
+      "seconds": 4.666666666666667,
+      "visual_tokens": 64
+    },
+    {
+      "frame_id": 15,
+      "start": 1185,
+      "end": 1263,
+      "bits": 8,
+      "source_index": 61,
+      "seconds": 5.083333333333333,
+      "visual_tokens": 64
+    }
+  ]
+}

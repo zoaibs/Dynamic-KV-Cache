@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "timed_requests": 96,
+  "unique_videos": 8,
+  "unit_tests": 25,
+  "real_model_integration": "passed",
+  "paper_pages": 5,
+  "dynamic_precision_counts": {
+    "4": 16,
+    "8": 15,
+    "16": 1
+  },
+  "workspace_bytes": 2888284936,
+  "pdf_visual_review": "passed",
+  "inference_cli": "passed",
+  "cap_bytes": 5000000000,
+  "optional_methods_implemented": false,
+  "gpu_benchmark_performed": false
+}

@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "tests": [
+    {
+      "bits": 16,
+      "n": 15,
+      "past": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0
+    },
+    {
+      "bits": 16,
+      "n": 67,
+      "past": 15,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0
+    },
+    {
+      "bits": 16,
+      "n": 23,
+      "past": 82,
+      "max_abs_error": 3.0517578125e-05,
+      "mean_abs_error": 2.3440533958307697e-09
+    },
+    {
+      "bits": 4,
+      "n": 15,
+      "past": 0,
+      "max_abs_error": 0.001953125,
+      "mean_abs_error": 2.2605613025916682e-07
+    },
+    {
+      "bits": 8,
+      "n": 67,
+      "past": 15,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0
+    },
+    {
+      "bits": 16,
+      "n": 23,
+      "past": 82,
+      "max_abs_error": 1.1920928955078125e-07,
+      "mean_abs_error": 8.99828562356264e-12
+    },
+    {
+      "bits": 8,
+      "n": 15,
+      "past": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0
+    },
+    {
+      "bits": 4,
+      "n": 67,
+      "past": 15,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0
+    },
+    {
+      "bits": 8,
+      "n": 23,
+      "past": 82,
+      "max_abs_error": 3.0517578125e-05,
+      "mean_abs_error": 2.303561119632036e-09
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Keep source text consistent across platforms and preserve binary files.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

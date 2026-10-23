@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 96.06446340002003,
+  "command": [
+    "scripts.audit_accuracy",
+    "--name",
+    "256m",
+    "--frames",
+    "8"
+  ],
+  "workspace_bytes": 11350257520
+}

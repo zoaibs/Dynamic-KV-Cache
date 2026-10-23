@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-22T20:57:05.077476+00:00",
+  "reason": "Discarded entire partial run because a filesystem byte-count audit overlapped its start. Stopped only the verified benchmark child PID 4272. No rows are included in final metrics.",
+  "rows": 66,
+  "byte_counter_check": {
+    "original": 11488850309,
+    "replacement": 11488850309,
+    "original_seconds": 19.6714775,
+    "replacement_seconds": 1.2757031
+  }
+}

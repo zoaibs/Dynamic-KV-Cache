@@ -1,0 +1,26 @@
+{
+  "label": {
+    "accuracy": 0.4722222222222222,
+    "no_video_accuracy": 0.3472222222222222,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "label_space": {
+    "accuracy": 0.4305555555555556,
+    "no_video_accuracy": 0.25,
+    "observations": 72,
+    "unique_videos": 24
+  },
+  "candidate": {
+    "accuracy": 0.75,
+    "no_video_accuracy": 0.6666666666666666,
+    "observations": 24,
+    "unique_videos": 24
+  },
+  "candidate_calibrated": {
+    "accuracy": 0.5833333333333334,
+    "no_video_accuracy": 0.6666666666666666,
+    "observations": 24,
+    "unique_videos": 24
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 17.463422900007572,
+  "command": [
+    "src.inference",
+    "--mode",
+    "dynamic",
+    "--sample",
+    "0"
+  ],
+  "workspace_bytes": 2888283800
+}

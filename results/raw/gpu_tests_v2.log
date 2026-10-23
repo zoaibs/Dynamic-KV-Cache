@@ -1,0 +1,331 @@
+..FFFFF.FFF.......................                                       [100%]
+================================== FAILURES ===================================
+__________________ test_gpu_pack_independent_error_bound[4] ___________________
+
+bits = 4
+
+    @pytest.mark.parametrize('bits',[4,8,16])
+    def test_gpu_pack_independent_error_bound(bits):
+        torch.manual_seed(71)
+        k=torch.randn((1,3,19,64),device='cuda',dtype=torch.bfloat16)
+        v=torch.randn((1,19,3,64),device='cuda',dtype=torch.bfloat16).transpose(1,2)
+>       c=GPUCache([(bits,19)],layers=1);c.select(bits);c.append(k,v,0)
+
+tests\test_gpu_backend.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_cache.py:88: in append
+    pack_rows[(self.heads*n,2)](k,v,self.p4,self.m4,self.p8,self.m8,self.p16,self.rows,self.codes,
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7B2848...namic KV Cache\\.runtime\\triton_cache\\I4ILKKJHE5Q4RHUU32O7HJH53HEBRYHHU3WI7MILAIDIWV6SKLTQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+__________________ test_gpu_pack_independent_error_bound[8] ___________________
+
+bits = 8
+
+    @pytest.mark.parametrize('bits',[4,8,16])
+    def test_gpu_pack_independent_error_bound(bits):
+        torch.manual_seed(71)
+        k=torch.randn((1,3,19,64),device='cuda',dtype=torch.bfloat16)
+        v=torch.randn((1,19,3,64),device='cuda',dtype=torch.bfloat16).transpose(1,2)
+>       c=GPUCache([(bits,19)],layers=1);c.select(bits);c.append(k,v,0)
+
+tests\test_gpu_backend.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_cache.py:88: in append
+    pack_rows[(self.heads*n,2)](k,v,self.p4,self.m4,self.p8,self.m8,self.p16,self.rows,self.codes,
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7C4BED...namic KV Cache\\.runtime\\triton_cache\\I4ILKKJHE5Q4RHUU32O7HJH53HEBRYHHU3WI7MILAIDIWV6SKLTQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+__________________ test_gpu_pack_independent_error_bound[16] __________________
+
+bits = 16
+
+    @pytest.mark.parametrize('bits',[4,8,16])
+    def test_gpu_pack_independent_error_bound(bits):
+        torch.manual_seed(71)
+        k=torch.randn((1,3,19,64),device='cuda',dtype=torch.bfloat16)
+        v=torch.randn((1,19,3,64),device='cuda',dtype=torch.bfloat16).transpose(1,2)
+>       c=GPUCache([(bits,19)],layers=1);c.select(bits);c.append(k,v,0)
+
+tests\test_gpu_backend.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_cache.py:88: in append
+    pack_rows[(self.heads*n,2)](k,v,self.p4,self.m4,self.p8,self.m8,self.p16,self.rows,self.codes,
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7B4466...namic KV Cache\\.runtime\\triton_cache\\I4ILKKJHE5Q4RHUU32O7HJH53HEBRYHHU3WI7MILAIDIWV6SKLTQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+________________ test_gpu_branch_does_not_advance_video_cache _________________
+
+    def test_gpu_branch_does_not_advance_video_cache():
+        c=GPUCache([(4,20),(16,10)],layers=1)
+        k=torch.randn(1,3,20,64,device='cuda',dtype=torch.bfloat16)
+>       c.select(4);c.append(k,k,0)
+
+tests\test_gpu_backend.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_cache.py:88: in append
+    pack_rows[(self.heads*n,2)](k,v,self.p4,self.m4,self.p8,self.m8,self.p16,self.rows,self.codes,
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7BC478...namic KV Cache\\.runtime\\triton_cache\\I4ILKKJHE5Q4RHUU32O7HJH53HEBRYHHU3WI7MILAIDIWV6SKLTQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+_______________________ test_online_growth_and_mapping ________________________
+
+    def test_online_growth_and_mapping():
+        c=GPUCache(None,layers=1,max_tokens=512)
+        expected=[]
+        for i,(bits,n) in enumerate([(4,79),(8,93),(4,88),(16,71)]):
+            x=torch.randn(1,3,n,64,device='cuda',dtype=torch.bfloat16)
+>           c.select(bits,i);c.append(x,x,0)
+
+tests\test_gpu_backend.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_cache.py:88: in append
+    pack_rows[(self.heads*n,2)](k,v,self.p4,self.m4,self.p8,self.m8,self.p16,self.rows,self.codes,
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7B5632...namic KV Cache\\.runtime\\triton_cache\\I4ILKKJHE5Q4RHUU32O7HJH53HEBRYHHU3WI7MILAIDIWV6SKLTQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+____________________ test_fused_rms_matches_upstream[576] _____________________
+
+dim = 576
+
+    @pytest.mark.parametrize('dim',[576,960])
+    def test_fused_rms_matches_upstream(dim):
+        x=torch.randn(1,19,dim,device='cuda',dtype=torch.bfloat16)
+        weight=torch.randn(dim,device='cuda',dtype=torch.bfloat16)
+        reference=weight*(x.float()*torch.rsqrt(x.float().pow(2).mean(-1,keepdim=True)+1e-5)).bfloat16()
+>       actual=fused_rms(x,weight,1e-5)
+
+tests\test_gpu_backend.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_ops.py:33: in fused_rms
+    rms_kernel[(x.numel()//d,)](x,weight,output,d,eps,triton.next_power_of_2(d))
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7B567A...namic KV Cache\\.runtime\\triton_cache\\SZQ6DR7IAXJT5JREOEC5P2SV4ZGKXC7B7QXKSJQI3AWGKBW6SQXQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+____________________ test_fused_rms_matches_upstream[960] _____________________
+
+dim = 960
+
+    @pytest.mark.parametrize('dim',[576,960])
+    def test_fused_rms_matches_upstream(dim):
+        x=torch.randn(1,19,dim,device='cuda',dtype=torch.bfloat16)
+        weight=torch.randn(dim,device='cuda',dtype=torch.bfloat16)
+        reference=weight*(x.float()*torch.rsqrt(x.float().pow(2).mean(-1,keepdim=True)+1e-5)).bfloat16()
+>       actual=fused_rms(x,weight,1e-5)
+
+tests\test_gpu_backend.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_ops.py:33: in fused_rms
+    rms_kernel[(x.numel()//d,)](x,weight,output,d,eps,triton.next_power_of_2(d))
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7C4CA3...namic KV Cache\\.runtime\\triton_cache\\SZQ6DR7IAXJT5JREOEC5P2SV4ZGKXC7B7QXKSJQI3AWGKBW6SQXQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+___________________ test_fused_activation_matches_upstream ____________________
+
+    def test_fused_activation_matches_upstream():
+        gate=torch.randn(1,23,2560,device='cuda',dtype=torch.bfloat16)
+        up=torch.randn_like(gate)
+        expected=torch.nn.functional.silu(gate)*up
+>       actual=fused_silu_mul(gate,up)
+
+tests\test_gpu_backend.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\gpu_ops.py:38: in fused_silu_mul
+    silu_mul_kernel[(triton.cdiv(gate.numel(),1024),)](gate,up,output,gate.numel(),
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:347: in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+.runtime\gpu\Lib\site-packages\triton\runtime\jit.py:591: in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata,
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:413: in __getattribute__
+    self._init_handles()
+.runtime\gpu\Lib\site-packages\triton\compiler\compiler.py:397: in _init_handles
+    self.run = driver.active.launcher_cls(self.src, self.metadata)
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:561: in __init__
+    mod = compile_module_from_src(src, "__triton_launcher")
+.runtime\gpu\Lib\site-packages\triton\backends\nvidia\driver.py:83: in compile_module_from_src
+    mod = importlib.util.module_from_spec(spec)
+<frozen importlib._bootstrap>:573: in module_from_spec
+    ???
+<frozen importlib._bootstrap_external>:1233: in create_module
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+f = <built-in function create_dynamic>
+args = (ModuleSpec(name='__triton_launcher', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000001E7C9D9E...namic KV Cache\\.runtime\\triton_cache\\PH36JOY32KJREVZIMYUYKXGRT7RJD5P4KWSRRAJADACP4CJBRLDQ\\__triton_launcher.pyd'),)
+kwds = {}
+
+>   ???
+E   ImportError: DLL load failed while importing __triton_launcher: An Application Control policy has blocked this file.
+
+<frozen importlib._bootstrap>:241: ImportError
+=========================== short test summary info ===========================
+FAILED tests/test_gpu_backend.py::test_gpu_pack_independent_error_bound[4] - ...
+FAILED tests/test_gpu_backend.py::test_gpu_pack_independent_error_bound[8] - ...
+FAILED tests/test_gpu_backend.py::test_gpu_pack_independent_error_bound[16]
+FAILED tests/test_gpu_backend.py::test_gpu_branch_does_not_advance_video_cache
+FAILED tests/test_gpu_backend.py::test_online_growth_and_mapping - ImportErro...
+FAILED tests/test_gpu_backend.py::test_fused_rms_matches_upstream[576] - Impo...
+FAILED tests/test_gpu_backend.py::test_fused_rms_matches_upstream[960] - Impo...
+FAILED tests/test_gpu_backend.py::test_fused_activation_matches_upstream - Im...
+8 failed, 26 passed in 31.43s

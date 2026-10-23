@@ -1,0 +1,68 @@
+500m_v3 audit 1/36
+500m_v3 audit 2/36
+500m_v3 audit 3/36
+500m_v3 audit 4/36
+500m_v3 audit 5/36
+500m_v3 audit 6/36
+500m_v3 audit 7/36
+500m_v3 audit 8/36
+500m_v3 audit 9/36
+500m_v3 audit 10/36
+500m_v3 audit 11/36
+500m_v3 audit 12/36
+500m_v3 audit 13/36
+500m_v3 audit 14/36
+500m_v3 audit 15/36
+500m_v3 audit 16/36
+500m_v3 audit 17/36
+500m_v3 audit 18/36
+500m_v3 audit 19/36
+500m_v3 audit 20/36
+500m_v3 audit 21/36
+500m_v3 audit 22/36
+500m_v3 audit 23/36
+500m_v3 audit 24/36
+500m_v3 audit 25/36
+500m_v3 audit 26/36
+500m_v3 audit 27/36
+500m_v3 audit 28/36
+500m_v3 audit 29/36
+500m_v3 audit 30/36
+500m_v3 audit 31/36
+500m_v3 audit 32/36
+500m_v3 audit 33/36
+500m_v3 audit 34/36
+500m_v3 audit 35/36
+500m_v3 audit 36/36
+{
+  "label": {
+    "accuracy": 0.39814814814814814,
+    "no_video_accuracy": 0.28240740740740733,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "label_space": {
+    "accuracy": 0.46759259259259256,
+    "no_video_accuracy": 0.42592592592592593,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "label_leading": {
+    "accuracy": 0.39583333333333326,
+    "no_video_accuracy": 0.39814814814814814,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "candidate": {
+    "accuracy": 0.6388888888888888,
+    "no_video_accuracy": 0.3333333333333333,
+    "observations": 120,
+    "unique_videos": 36
+  },
+  "candidate_calibrated": {
+    "accuracy": 0.5,
+    "no_video_accuracy": 0.30555555555555547,
+    "observations": 120,
+    "unique_videos": 36
+  }
+}

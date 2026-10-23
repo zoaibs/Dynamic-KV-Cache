@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 43.02983189999941,
+  "command": [
+    "scripts.verify_integration"
+  ],
+  "workspace_bytes": 2832147712
+}

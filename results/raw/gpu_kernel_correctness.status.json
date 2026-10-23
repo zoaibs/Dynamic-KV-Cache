@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 68.52287960000103,
+  "command": [
+    "scripts.test_gpu_backend"
+  ],
+  "workspace_bytes": 9285218292
+}

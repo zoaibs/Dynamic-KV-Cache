@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "unit_tests": 40,
+  "quality_cache_streams": 504,
+  "quality_videos": 72,
+  "quality_rotated_questions_per_mode": 240,
+  "timed_requests": 180,
+  "quality_actual_frames_min": 5,
+  "quality_actual_frames_max": 16,
+  "real_gpu_pack_and_causal_attention": "passed",
+  "selected_config_sha256": "410e20e400d89cfcb6f969d25a8443f96001e1d4bfee1c96f16bc16dfa12f7af",
+  "split_hashes_disjoint": true,
+  "per_frame_policy_decisions": "passed",
+  "physical_byte_accounting": "passed",
+  "policy_frozen_before_test": true,
+  "checkpoint_sha256": "b9bfd456c9472c0acd5719d6e514c4b859891af205ee1a736552fd3497b8b0c3",
+  "inference_cli": "passed",
+  "pdf_visual_review": "passed",
+  "paper_pages": 6,
+  "dynamic_heldout_frame_precision_counts": {
+    "8": 263,
+    "16": 45,
+    "4": 833
+  },
+  "workspace_bytes": 11490570781,
+  "cap_bytes": 15000000000
+}

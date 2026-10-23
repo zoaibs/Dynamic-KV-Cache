@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 852.44384729999,
+  "command": [
+    "benchmarks.gpu_evaluate",
+    "--phase",
+    "quality"
+  ],
+  "workspace_bytes": 11470848198
+}

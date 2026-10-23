@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 9.047037600015756,
+  "command": [
+    "pytest",
+    "-q",
+    "tests"
+  ],
+  "workspace_bytes": 2832122392
+}

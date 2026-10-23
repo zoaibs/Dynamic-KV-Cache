@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 23.762315200001467,
+  "command": [
+    "benchmarks.baseline"
+  ],
+  "workspace_bytes": 2832025880
+}

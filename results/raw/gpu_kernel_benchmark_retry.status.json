@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 36.70019559998764,
+  "command": [
+    "scripts.benchmark_gpu_kernels"
+  ],
+  "workspace_bytes": 9315332682
+}

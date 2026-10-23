@@ -1,0 +1,20 @@
+256m audit 1/24
+256m audit 2/24
+256m audit 3/24
+256m audit 4/24
+256m audit 5/24
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\scripts\audit_accuracy.py", line 42, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\scripts\audit_accuracy.py", line 21, in main
+    prepared=prepare_video(model.adapter,s,args.frames,False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\src\streaming.py", line 30, in prepare_video
+    decoded=decode_video(sample['path'],frames)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\src\model_adapter.py", line 36, in decode_video
+    raise ValueError(f'Missing frame {index}; benchmark sample rejected')
+ValueError: Missing frame 32; benchmark sample rejected

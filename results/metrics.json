@@ -1,0 +1,548 @@
+{
+  "metrics": [
+    {
+      "mode": "native",
+      "unique_samples": 8,
+      "timed_requests": 24,
+      "correct": 4,
+      "accuracy_percent": 50.0,
+      "accuracy_wilson95_low": 21.52160622138829,
+      "accuracy_wilson95_high": 78.4783937786117,
+      "cpu_cache_bytes_mean": 7534080,
+      "cpu_payload_bytes_mean": 7534080,
+      "cpu_metadata_bytes_mean": 0,
+      "frame_cache_bytes_mean": 7188480,
+      "latency_seconds_mean": 6.274196245837326,
+      "latency_repeat_std": 0.021030821806432492,
+      "frames_per_second": 0.637536627895452,
+      "frames_per_second_repeat_std": 0.002133821633493134,
+      "qa_per_second": 0.159384156973863,
+      "process_peak_rss_bytes_mean": 997083648,
+      "gpu_peak_allocated_bytes": null,
+      "gpu_peak_reserved_bytes": null,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "score_ms_mean": 0.0,
+      "pack_ms_mean": 0.0,
+      "unpack_ms_mean": 0.0,
+      "cache_reduction_percent": 0.0,
+      "accuracy_delta_pp": 0.0,
+      "throughput_change_percent": 0.0
+    },
+    {
+      "mode": "8",
+      "unique_samples": 8,
+      "timed_requests": 24,
+      "correct": 4,
+      "accuracy_percent": 50.0,
+      "accuracy_wilson95_low": 21.52160622138829,
+      "accuracy_wilson95_high": 78.4783937786117,
+      "cpu_cache_bytes_mean": 4413120,
+      "cpu_payload_bytes_mean": 3939840,
+      "cpu_metadata_bytes_mean": 473280,
+      "frame_cache_bytes_mean": 4062720,
+      "latency_seconds_mean": 6.503156379167194,
+      "latency_repeat_std": 0.015071265685337332,
+      "frames_per_second": 0.61508813628736,
+      "frames_per_second_repeat_std": 0.0014269457695279065,
+      "qa_per_second": 0.15377203407184,
+      "process_peak_rss_bytes_mean": 998421674.6666666,
+      "gpu_peak_allocated_bytes": null,
+      "gpu_peak_reserved_bytes": null,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "score_ms_mean": 0.0,
+      "pack_ms_mean": 168.0503708521428,
+      "unpack_ms_mean": 76.50009581144938,
+      "cache_reduction_percent": 41.42456676860347,
+      "accuracy_delta_pp": 0.0,
+      "throughput_change_percent": -3.521129708609183
+    },
+    {
+      "mode": "4",
+      "unique_samples": 8,
+      "timed_requests": 24,
+      "correct": 4,
+      "accuracy_percent": 50.0,
+      "accuracy_wilson95_low": 21.52160622138829,
+      "accuracy_wilson95_high": 78.4783937786117,
+      "cpu_cache_bytes_mean": 2616000,
+      "cpu_payload_bytes_mean": 2142720,
+      "cpu_metadata_bytes_mean": 473280,
+      "frame_cache_bytes_mean": 2265600,
+      "latency_seconds_mean": 6.571555912500723,
+      "latency_repeat_std": 0.015924211095476676,
+      "frames_per_second": 0.6086862382927135,
+      "frames_per_second_repeat_std": 0.0014739934760299922,
+      "qa_per_second": 0.15217155957317838,
+      "process_peak_rss_bytes_mean": 998485162.6666666,
+      "gpu_peak_allocated_bytes": null,
+      "gpu_peak_reserved_bytes": null,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "score_ms_mean": 0.0,
+      "pack_ms_mean": 177.42166249566557,
+      "unpack_ms_mean": 120.224183358611,
+      "cache_reduction_percent": 65.27777777777779,
+      "accuracy_delta_pp": 0.0,
+      "throughput_change_percent": -4.5252913072579615
+    },
+    {
+      "mode": "dynamic",
+      "unique_samples": 8,
+      "timed_requests": 24,
+      "correct": 4,
+      "accuracy_percent": 50.0,
+      "accuracy_wilson95_low": 21.52160622138829,
+      "accuracy_wilson95_high": 78.4783937786117,
+      "cpu_cache_bytes_mean": 3612840,
+      "cpu_payload_bytes_mean": 3153600,
+      "cpu_metadata_bytes_mean": 459240,
+      "frame_cache_bytes_mean": 3262440,
+      "latency_seconds_mean": 6.587762604163193,
+      "latency_repeat_std": 0.03098569795167427,
+      "frames_per_second": 0.6071953638076503,
+      "frames_per_second_repeat_std": 0.0028518610232423154,
+      "qa_per_second": 0.15179884095191257,
+      "process_peak_rss_bytes_mean": 997945856,
+      "gpu_peak_allocated_bytes": null,
+      "gpu_peak_reserved_bytes": null,
+      "gpu_cache_bytes": 0,
+      "disk_cache_bytes": 0,
+      "score_ms_mean": 24.062545835477067,
+      "pack_ms_mean": 169.7654749987123,
+      "unpack_ms_mean": 101.53529164987656,
+      "cache_reduction_percent": 52.0466997961264,
+      "accuracy_delta_pp": 0.0,
+      "throughput_change_percent": -4.759140535652062
+    }
+  ],
+  "accuracy_unit": "8 unique videos, not 24 independent observations",
+  "timing_uncertainty": "sample standard deviation of three repetition-level means",
+  "cache_boundary": "after last frame before QA; packed payload plus binary metadata; excludes Python bookkeeping",
+  "gpu_measurement_status": "unavailable: CPU-only experiment",
+  "memory_scope": "process RSS includes weights/interpreter/transient attention buffers; 10 ms sampling",
+  "dynamic_precision_counts": {
+    "4": 16,
+    "8": 15,
+    "16": 1
+  },
+  "predictions": [
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_000",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.875,
+        10.9375,
+        9.5
+      ],
+      "correct": false
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_001",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Showing something on top of something",
+      "logits": [
+        11.125,
+        12.9375,
+        11.5625
+      ],
+      "correct": true
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_002",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Staying in place away from something with your camera",
+      "logits": [
+        10.0,
+        13.875,
+        11.3125
+      ],
+      "correct": false
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_003",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Throwing something in the air and catching it",
+      "logits": [
+        10.25,
+        12.25,
+        10.875
+      ],
+      "correct": true
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_004",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Spinning something so it discontinues spinning",
+      "logits": [
+        9.5,
+        13.5625,
+        11.25
+      ],
+      "correct": false
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_005",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.75,
+        9.9375,
+        9.4375
+      ],
+      "correct": false
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_006",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Holding something next to something",
+      "logits": [
+        9.1875,
+        9.75,
+        10.0
+      ],
+      "correct": true
+    },
+    {
+      "mode": "native",
+      "sample_id": "action_antonym_007",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Pulling something from left to right",
+      "logits": [
+        9.8125,
+        10.3125,
+        11.3125
+      ],
+      "correct": true
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_000",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.75,
+        11.0,
+        9.5
+      ],
+      "correct": false
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_001",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Showing something on top of something",
+      "logits": [
+        10.8125,
+        12.6875,
+        11.25
+      ],
+      "correct": true
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_002",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Staying in place away from something with your camera",
+      "logits": [
+        9.8125,
+        13.625,
+        11.1875
+      ],
+      "correct": false
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_003",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Throwing something in the air and catching it",
+      "logits": [
+        10.5625,
+        12.5625,
+        11.125
+      ],
+      "correct": true
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_004",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Spinning something so it discontinues spinning",
+      "logits": [
+        9.375,
+        13.375,
+        11.1875
+      ],
+      "correct": false
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_005",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.625,
+        10.0,
+        9.4375
+      ],
+      "correct": false
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_006",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Holding something next to something",
+      "logits": [
+        9.3125,
+        10.0,
+        10.125
+      ],
+      "correct": true
+    },
+    {
+      "mode": "8",
+      "sample_id": "action_antonym_007",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Pulling something from left to right",
+      "logits": [
+        9.75,
+        10.3125,
+        11.25
+      ],
+      "correct": true
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_000",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.9375,
+        11.25,
+        9.5625
+      ],
+      "correct": false
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_001",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Showing something on top of something",
+      "logits": [
+        10.9375,
+        12.6875,
+        11.25
+      ],
+      "correct": true
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_002",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Staying in place away from something with your camera",
+      "logits": [
+        10.1875,
+        14.25,
+        11.625
+      ],
+      "correct": false
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_003",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Throwing something in the air and catching it",
+      "logits": [
+        10.75,
+        13.0625,
+        11.4375
+      ],
+      "correct": true
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_004",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Spinning something so it discontinues spinning",
+      "logits": [
+        9.875,
+        14.125,
+        11.6875
+      ],
+      "correct": false
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_005",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.625,
+        10.5,
+        9.875
+      ],
+      "correct": false
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_006",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Holding something next to something",
+      "logits": [
+        9.3125,
+        10.0,
+        10.25
+      ],
+      "correct": true
+    },
+    {
+      "mode": "4",
+      "sample_id": "action_antonym_007",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Pulling something from left to right",
+      "logits": [
+        10.3125,
+        10.5625,
+        11.75
+      ],
+      "correct": true
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_000",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.875,
+        11.1875,
+        9.75
+      ],
+      "correct": false
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_001",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Showing something on top of something",
+      "logits": [
+        10.8125,
+        12.6875,
+        11.25
+      ],
+      "correct": true
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_002",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Staying in place away from something with your camera",
+      "logits": [
+        10.1875,
+        14.25,
+        11.625
+      ],
+      "correct": false
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_003",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Throwing something in the air and catching it",
+      "logits": [
+        10.75,
+        13.0625,
+        11.4375
+      ],
+      "correct": true
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_004",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Spinning something so it discontinues spinning",
+      "logits": [
+        9.8125,
+        13.75,
+        11.5625
+      ],
+      "correct": false
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_005",
+      "prediction": 1,
+      "label": "B",
+      "predicted_text": "Scattering something down",
+      "logits": [
+        8.625,
+        9.9375,
+        9.25
+      ],
+      "correct": false
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_006",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Holding something next to something",
+      "logits": [
+        9.25,
+        9.8125,
+        10.0
+      ],
+      "correct": true
+    },
+    {
+      "mode": "dynamic",
+      "sample_id": "action_antonym_007",
+      "prediction": 2,
+      "label": "C",
+      "predicted_text": "Pulling something from left to right",
+      "logits": [
+        10.3125,
+        10.5625,
+        11.9375
+      ],
+      "correct": true
+    }
+  ]
+}

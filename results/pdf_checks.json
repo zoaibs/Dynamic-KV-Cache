@@ -1,0 +1,40 @@
+{
+  "renderer": "PyMuPDF 1.26.1",
+  "pages": 6,
+  "bounds_checks": "passed",
+  "pdf_sha256": "0cc5bd7f4349262d98894705e8167bbcb3df26401f5ef77fff6393eb85d0c8ae",
+  "visual_review": "passed: all six final page PNGs inspected after actual-frame reporting correction; no clipping, overlap or missing content",
+  "page_evidence": [
+    {
+      "page": 1,
+      "text_characters": 2830,
+      "text_outside_page": []
+    },
+    {
+      "page": 2,
+      "text_characters": 3999,
+      "text_outside_page": []
+    },
+    {
+      "page": 3,
+      "text_characters": 2897,
+      "text_outside_page": []
+    },
+    {
+      "page": 4,
+      "text_characters": 2091,
+      "text_outside_page": []
+    },
+    {
+      "page": 5,
+      "text_characters": 2215,
+      "text_outside_page": []
+    },
+    {
+      "page": 6,
+      "text_characters": 3797,
+      "text_outside_page": []
+    }
+  ],
+  "reviewed_at_utc": "2026-10-22T21:14:42.602860+00:00"
+}

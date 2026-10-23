@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 303.1723149000027,
+  "command": [
+    "scripts.audit_accuracy",
+    "--model",
+    "models/smolvlm2_500m",
+    "--name",
+    "500m_v3",
+    "--frames",
+    "16",
+    "--samples",
+    "36",
+    "--manifest",
+    "data/validation_v3.json"
+  ],
+  "workspace_bytes": 11458233374
+}

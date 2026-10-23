@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "exit_code": 1,
+  "elapsed_seconds": 11.562126999982866,
+  "command": [
+    "benchmarks.baseline"
+  ],
+  "workspace_bytes": 2832021124
+}

@@ -1,0 +1,24 @@
+WARNING:2026-10-22 16:45:52 18896:10480 C:\actions-runner\_work\pytorch\pytorch\pytorch\third_party\kineto\libkineto\src\init.cpp:107] function cbapi->getCuptiStatus() failed with error CUPTI_ERROR_INVALID_DEVICE (2)
+WARNING:2026-10-22 16:45:52 18896:10480 C:\actions-runner\_work\pytorch\pytorch\pytorch\third_party\kineto\libkineto\src\init.cpp:108] CUPTI initialization failed - CUDA profiler activities will be missing
+INFO:2026-10-22 16:45:52 18896:10480 C:\actions-runner\_work\pytorch\pytorch\pytorch\third_party\kineto\libkineto\src\init.cpp:110] If you see CUPTI_ERROR_INSUFFICIENT_PRIVILEGES, refer to https://developer.nvidia.com/nvidia-development-tools-solutions-err-nvgpuctrperm-cupti
+{
+  "native": {
+    "status": "success",
+    "device_timing_available": false,
+    "aten_cat_count": 8712,
+    "aten_mm_count": 15235,
+    "aten_mean_count": 4423,
+    "pack_device_us": null,
+    "packed_attention_device_us": null
+  },
+  "dynamic": {
+    "status": "success",
+    "device_timing_available": false,
+    "aten_cat_count": 4424,
+    "aten_mm_count": 8707,
+    "aten_mean_count": 4423,
+    "pack_device_us": null,
+    "packed_attention_device_us": null
+  },
+  "scope": "One real 64-frame validation clip, decoder + one candidate-scored QA; profiling is separate from timing"
+}

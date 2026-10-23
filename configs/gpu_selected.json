@@ -1,0 +1,190 @@
+{
+  "model_path": "models/smolvlm2_500m",
+  "checkpoint": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "protocol": "candidate",
+  "quality_frames": 16,
+  "performance_frames": [
+    4,
+    16,
+    32,
+    64
+  ],
+  "validation_videos": 36,
+  "test_videos": 72,
+  "validation_manifest_sha256": "f001ebe3e260e93e5e6929f8e4b440eecbaca22468eb124986ba4e485fae05d0",
+  "selection_rule": "Maximum validation video-mean accuracy; ties: improvement over no-video control",
+  "validation_choice": {
+    "model_path": "models/smolvlm2_500m",
+    "api": "docs/model_500m_api.json",
+    "protocol": "candidate",
+    "accuracy": 0.6388888888888888,
+    "no_video_accuracy": 0.3333333333333333,
+    "observations": 120,
+    "unique_videos": 36,
+    "visual_gain": 0.3055555555555555
+  },
+  "candidates": [
+    {
+      "model_path": "models/smolvlm2",
+      "api": "docs/model_api.json",
+      "protocol": "label",
+      "accuracy": 0.41435185185185186,
+      "no_video_accuracy": 0.2939814814814815,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.12037037037037035
+    },
+    {
+      "model_path": "models/smolvlm2",
+      "api": "docs/model_api.json",
+      "protocol": "label_space",
+      "accuracy": 0.400462962962963,
+      "no_video_accuracy": 0.2569444444444444,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.1435185185185186
+    },
+    {
+      "model_path": "models/smolvlm2",
+      "api": "docs/model_api.json",
+      "protocol": "label_leading",
+      "accuracy": 0.375,
+      "no_video_accuracy": 0.34490740740740744,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.03009259259259256
+    },
+    {
+      "model_path": "models/smolvlm2",
+      "api": "docs/model_api.json",
+      "protocol": "candidate",
+      "accuracy": 0.5833333333333334,
+      "no_video_accuracy": 0.5277777777777778,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.05555555555555558
+    },
+    {
+      "model_path": "models/smolvlm2",
+      "api": "docs/model_api.json",
+      "protocol": "candidate_calibrated",
+      "accuracy": 0.5555555555555556,
+      "no_video_accuracy": 0.30555555555555547,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.2500000000000001
+    },
+    {
+      "model_path": "models/smolvlm2_500m",
+      "api": "docs/model_500m_api.json",
+      "protocol": "label",
+      "accuracy": 0.39814814814814814,
+      "no_video_accuracy": 0.28240740740740733,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.11574074074074081
+    },
+    {
+      "model_path": "models/smolvlm2_500m",
+      "api": "docs/model_500m_api.json",
+      "protocol": "label_space",
+      "accuracy": 0.46759259259259256,
+      "no_video_accuracy": 0.42592592592592593,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.04166666666666663
+    },
+    {
+      "model_path": "models/smolvlm2_500m",
+      "api": "docs/model_500m_api.json",
+      "protocol": "label_leading",
+      "accuracy": 0.39583333333333326,
+      "no_video_accuracy": 0.39814814814814814,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": -0.0023148148148148806
+    },
+    {
+      "model_path": "models/smolvlm2_500m",
+      "api": "docs/model_500m_api.json",
+      "protocol": "candidate",
+      "accuracy": 0.6388888888888888,
+      "no_video_accuracy": 0.3333333333333333,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.3055555555555555
+    },
+    {
+      "model_path": "models/smolvlm2_500m",
+      "api": "docs/model_500m_api.json",
+      "protocol": "candidate_calibrated",
+      "accuracy": 0.5,
+      "no_video_accuracy": 0.30555555555555547,
+      "observations": 120,
+      "unique_videos": 36,
+      "visual_gain": 0.19444444444444453
+    }
+  ],
+  "selected_at_utc": "2026-10-22T19:48:56.963795+00:00",
+  "block_m": 16,
+  "block_n": 64,
+  "policy": {
+    "name": "budget",
+    "weights": [
+      0.2,
+      0.4,
+      0.4
+    ],
+    "scales": [
+      0.15013020833333332,
+      4.761447906494137,
+      0.1275822088122367
+    ],
+    "thresholds": [
+      0.55,
+      0.9
+    ],
+    "fixed": 0,
+    "anchor": 8,
+    "period": 0
+  },
+  "policy_selection": {
+    "policy": {
+      "name": "budget",
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "scales": [
+        0.15013020833333332,
+        4.761447906494137,
+        0.1275822088122367
+      ],
+      "thresholds": [
+        0.55,
+        0.9
+      ],
+      "fixed": 0,
+      "anchor": 8,
+      "period": 0
+    },
+    "accuracy": 0.6388888888888888,
+    "native_accuracy": 0.6388888888888888,
+    "agreement": 1,
+    "cache_reduction": 0.5934916111151272,
+    "allocated_cache_reduction": 0.4168759638686935,
+    "mean_decoder_qa_seconds": 1.2938380861127774,
+    "score_delta_l2": 0.3176120834258923
+  },
+  "random_probabilities": [
+    0.6834782608695652,
+    0.2991304347826087,
+    0.017391304347826087
+  ],
+  "test_manifest_sha256": "6a2f788b61ab0fc97b6d1e38dc386753db085d6fdc408cc2dfab8f9045b49392",
+  "frozen_before_test": true,
+  "policy_frozen_at_utc": "2026-10-22T20:19:20.424028+00:00",
+  "freeze_note": "Timestamp recorded after validation completion, before any held-out inference; no numerical policy changes."
+}

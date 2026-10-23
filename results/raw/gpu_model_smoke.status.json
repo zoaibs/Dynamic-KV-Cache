@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "exit_code": 1,
+  "elapsed_seconds": 16.201711600006092,
+  "command": [
+    "scripts.gpu_model_smoke"
+  ],
+  "workspace_bytes": 9289540672
+}

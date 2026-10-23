@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 302.38242040001205,
+  "command": [
+    "scripts.pilot_gpu_performance"
+  ],
+  "workspace_bytes": 11457985316
+}

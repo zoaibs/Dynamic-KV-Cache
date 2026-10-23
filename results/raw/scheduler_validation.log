@@ -1,0 +1,513 @@
+Validation policies: video 1/36
+Validation policies: video 2/36
+Validation policies: video 3/36
+Validation policies: video 4/36
+Validation policies: video 5/36
+Validation policies: video 6/36
+Validation policies: video 7/36
+Validation policies: video 8/36
+Validation policies: video 9/36
+Validation policies: video 10/36
+Validation policies: video 11/36
+Validation policies: video 12/36
+Validation policies: video 13/36
+Validation policies: video 14/36
+Validation policies: video 15/36
+Validation policies: video 16/36
+Validation policies: video 17/36
+Validation policies: video 18/36
+Validation policies: video 19/36
+Validation policies: video 20/36
+Validation policies: video 21/36
+Validation policies: video 22/36
+Validation policies: video 23/36
+Validation policies: video 24/36
+Validation policies: video 25/36
+Validation policies: video 26/36
+Validation policies: video 27/36
+Validation policies: video 28/36
+Validation policies: video 29/36
+Validation policies: video 30/36
+Validation policies: video 31/36
+Validation policies: video 32/36
+Validation policies: video 33/36
+Validation policies: video 34/36
+Validation policies: video 35/36
+Validation policies: video 36/36
+{
+  "validation_only": true,
+  "unique_videos": 36,
+  "tested_policies": 15,
+  "normalization_scales_fitted_on_validation": [
+    0.15013020833333332,
+    4.761447906494137,
+    0.1275822088122367
+  ],
+  "summary": [
+    {
+      "policy": {
+        "name": "uniform4",
+        "weights": [
+          0.3,
+          0.4,
+          0.3
+        ],
+        "scales": [
+          0.2,
+          8.0,
+          0.25
+        ],
+        "thresholds": [
+          0.3,
+          0.65
+        ],
+        "fixed": 4,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.6791988153451338,
+      "allocated_cache_reduction": 0.49160608063450095,
+      "mean_decoder_qa_seconds": 1.6873804083321982,
+      "score_delta_l2": 0.37346106333621526
+    },
+    {
+      "policy": {
+        "name": "uniform8",
+        "weights": [
+          0.3,
+          0.4,
+          0.3
+        ],
+        "scales": [
+          0.2,
+          8.0,
+          0.25
+        ],
+        "thresholds": [
+          0.3,
+          0.65
+        ],
+        "fixed": 8,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.4321730387423579,
+      "allocated_cache_reduction": 0.16166556510244545,
+      "mean_decoder_qa_seconds": 1.32497558055507,
+      "score_delta_l2": 0.1064655768480378
+    },
+    {
+      "policy": {
+        "name": "fused16",
+        "weights": [
+          0.3,
+          0.4,
+          0.3
+        ],
+        "scales": [
+          0.2,
+          8.0,
+          0.25
+        ],
+        "thresholds": [
+          0.3,
+          0.65
+        ],
+        "fixed": 16,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": -0.0001220703125,
+      "allocated_cache_reduction": -0.4157303370786516,
+      "mean_decoder_qa_seconds": 1.3288088000020555,
+      "score_delta_l2": 0.11108252319241783
+    },
+    {
+      "policy": {
+        "name": "original",
+        "weights": [
+          0.3,
+          0.4,
+          0.3
+        ],
+        "scales": [
+          0.2,
+          8.0,
+          0.25
+        ],
+        "thresholds": [
+          0.3,
+          0.65
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5874770704674075,
+      "allocated_cache_reduction": 0.4268341044282882,
+      "mean_decoder_qa_seconds": 1.3520435277750948,
+      "score_delta_l2": 0.27495227361845
+    },
+    {
+      "policy": {
+        "name": "edges_only",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.4,
+          0.85
+        ],
+        "fixed": 0,
+        "anchor": 8,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.4333544663695885,
+      "allocated_cache_reduction": 0.18933685833884117,
+      "mean_decoder_qa_seconds": 1.3480139972218441,
+      "score_delta_l2": 0.1646178770476033
+    },
+    {
+      "policy": {
+        "name": "difference_only",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.4,
+          0.85
+        ],
+        "fixed": 0,
+        "anchor": 8,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5387163302162508,
+      "allocated_cache_reduction": 0.3681427627230668,
+      "mean_decoder_qa_seconds": 1.367229883332685,
+      "score_delta_l2": 0.2757274854862939
+    },
+    {
+      "policy": {
+        "name": "motion",
+        "weights": [
+          0.1,
+          0.7,
+          0.2
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.3,
+          0.75
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5001588285639045,
+      "allocated_cache_reduction": 0.3391495924212382,
+      "mean_decoder_qa_seconds": 1.3407539444427432,
+      "score_delta_l2": 0.30733337874602024
+    },
+    {
+      "policy": {
+        "name": "difference",
+        "weights": [
+          0.1,
+          0.2,
+          0.7
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.3,
+          0.75
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5083214194429527,
+      "allocated_cache_reduction": 0.3416170962767129,
+      "mean_decoder_qa_seconds": 1.325442136110117,
+      "score_delta_l2": 0.26577360738309297
+    },
+    {
+      "policy": {
+        "name": "balanced",
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.3,
+          0.75
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.48275962169014375,
+      "allocated_cache_reduction": 0.2927076448556951,
+      "mean_decoder_qa_seconds": 1.3186879666682216,
+      "score_delta_l2": 0.2348899937747025
+    },
+    {
+      "policy": {
+        "name": "edges",
+        "weights": [
+          0.7,
+          0.1,
+          0.2
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.3,
+          0.75
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.4329248563233229,
+      "allocated_cache_reduction": 0.2058162590879048,
+      "mean_decoder_qa_seconds": 1.336693586108999,
+      "score_delta_l2": 0.13504213919335836
+    },
+    {
+      "policy": {
+        "name": "conservative",
+        "weights": [
+          0.2,
+          0.4,
+          0.4
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.15,
+          0.6
+        ],
+        "fixed": 0,
+        "anchor": 16,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.3448547968388549,
+      "allocated_cache_reduction": 0.12756113681427628,
+      "mean_decoder_qa_seconds": 1.3178569277790504,
+      "score_delta_l2": 0.1240073650032748
+    },
+    {
+      "policy": {
+        "name": "budget",
+        "weights": [
+          0.2,
+          0.4,
+          0.4
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.55,
+          0.9
+        ],
+        "fixed": 0,
+        "anchor": 8,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5934916111151272,
+      "allocated_cache_reduction": 0.4168759638686935,
+      "mean_decoder_qa_seconds": 1.2938380861127774,
+      "score_delta_l2": 0.3176120834258923
+    },
+    {
+      "policy": {
+        "name": "motion_anchor",
+        "weights": [
+          0.1,
+          0.7,
+          0.2
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.4,
+          0.85
+        ],
+        "fixed": 0,
+        "anchor": 16,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5120805073477777,
+      "allocated_cache_reduction": 0.3471689799515312,
+      "mean_decoder_qa_seconds": 1.3065266388883983,
+      "score_delta_l2": 0.2890397192568451
+    },
+    {
+      "policy": {
+        "name": "difference_anchor",
+        "weights": [
+          0.1,
+          0.2,
+          0.7
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.4,
+          0.85
+        ],
+        "fixed": 0,
+        "anchor": 16,
+        "period": 0
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5087510294892185,
+      "allocated_cache_reduction": 0.34963648380700596,
+      "mean_decoder_qa_seconds": 1.2842316027785676,
+      "score_delta_l2": 0.2653492185531267
+    },
+    {
+      "policy": {
+        "name": "periodic",
+        "weights": [
+          0.2,
+          0.4,
+          0.4
+        ],
+        "scales": [
+          0.15013020833333332,
+          4.761447906494137,
+          0.1275822088122367
+        ],
+        "thresholds": [
+          0.5,
+          0.9
+        ],
+        "fixed": 0,
+        "anchor": 0,
+        "period": 8
+      },
+      "accuracy": 0.6388888888888888,
+      "native_accuracy": 0.6388888888888888,
+      "agreement": 1,
+      "cache_reduction": 0.5185246580417631,
+      "allocated_cache_reduction": 0.33888521700815155,
+      "mean_decoder_qa_seconds": 1.3042020249987318,
+      "score_delta_l2": 0.29094727889392763
+    }
+  ],
+  "selected": {
+    "policy": {
+      "name": "budget",
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "scales": [
+        0.15013020833333332,
+        4.761447906494137,
+        0.1275822088122367
+      ],
+      "thresholds": [
+        0.55,
+        0.9
+      ],
+      "fixed": 0,
+      "anchor": 8,
+      "period": 0
+    },
+    "accuracy": 0.6388888888888888,
+    "native_accuracy": 0.6388888888888888,
+    "agreement": 1,
+    "cache_reduction": 0.5934916111151272,
+    "allocated_cache_reduction": 0.4168759638686935,
+    "mean_decoder_qa_seconds": 1.2938380861127774,
+    "score_delta_l2": 0.3176120834258923
+  },
+  "rule": "Among dynamic policies with >=25% used and allocated cache reduction: maximize validation accuracy, then cache reduction, then native-score fidelity"
+}

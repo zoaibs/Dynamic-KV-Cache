@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 160.96541379997507,
+  "command": [
+    "scripts.audit_accuracy",
+    "--model",
+    "models/smolvlm2_500m",
+    "--name",
+    "500m",
+    "--frames",
+    "8"
+  ],
+  "workspace_bytes": 11420344017
+}

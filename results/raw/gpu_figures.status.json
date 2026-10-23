@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "exit_code": 0,
+  "elapsed_seconds": 3.814352500019595,
+  "command": [
+    "scripts.plot_gpu"
+  ],
+  "workspace_bytes": 11490520734
+}

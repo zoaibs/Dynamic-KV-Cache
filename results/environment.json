@@ -1,0 +1,28 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "C:\\Users\\zoaib\\OneDrive\\Documents\\Dynamic KV Cache\\.runtime\\python\\python.exe",
+  "processor": "AMD64 Family 26 Model 36 Stepping 0, AuthenticAMD",
+  "cpu_name": "AMD Ryzen AI 9 365 w/ Radeon 880M",
+  "cpu_count": 20,
+  "physical_cores": 10,
+  "ram_total_bytes": 33306501120,
+  "ram_available_bytes": 10557444096,
+  "disk_free_bytes": 880943398912,
+  "workspace_bytes": 2888268654,
+  "workspace_cap_bytes": 5000000000,
+  "nvidia_smi": "NVIDIA GeForce RTX 5070 Laptop GPU, 8151 MiB, 592.82",
+  "torch": "2.7.1+cpu",
+  "driver_supported_cuda_max": "13.1",
+  "torch_cuda": null,
+  "cuda_available": false,
+  "execution_device": "cpu",
+  "cuda_wheel_download_bytes": 3273066072,
+  "cuda_not_installed_reason": "5 GB total project budget; CUDA wheel alone 3.27 GB",
+  "git_available": false,
+  "notes": [
+    "CIM system query denied; RAM/disk obtained with psutil.",
+    "Embedded CPython isolated in workspace; no system installation.",
+    "GPU allocated/reserved metrics are unavailable in this CPU build."
+  ]
+}

@@ -1,0 +1,57 @@
+Keyword argument `do_image_splitting` is not a valid argument for this processor and will be ignored.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\benchmarks\baseline.py", line 44, in <module>
+    main()
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\benchmarks\baseline.py", line 21, in main
+    trace.append(model.append(frame, cache))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\src\model_adapter.py", line 93, in append
+    inputs = self.frame_inputs(frame)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\src\model_adapter.py", line 70, in frame_inputs
+    return self.processor(text=text, images=[image], return_tensors='pt',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\.runtime\python\Lib\site-packages\transformers\models\smolvlm\processing_smolvlm.py", line 294, in __call__
+    text, vision_inputs = self.process_vision(
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zoaib\OneDrive\Documents\Dynamic KV Cache\.runtime\python\Lib\site-packages\transformers\models\smolvlm\processing_smolvlm.py", line 176, in process_vision
+    image_inputs = self.image_processor(
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmolVLMImageProcessor {
+  "do_convert_rgb": true,
+  "do_image_splitting": true,
+  "do_normalize": true,
+  "do_pad": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "SmolVLMImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "max_image_size": {
+    "longest_edge": 512
+  },
+  "processor_class": "SmolVLMProcessor",
+  "resample": 1,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "longest_edge": 2048
+  },
+  "video_sampling": {
+    "fps": 1,
+    "max_frames": 64,
+    "video_size": {
+      "longest_edge": 512
+    }
+  }
+}
+ got multiple values for keyword argument 'size'

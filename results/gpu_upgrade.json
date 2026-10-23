@@ -1,0 +1,6 @@
+{
+  "original_environment_preserved": ".runtime\\python",
+  "new_environment": ".runtime\\gpu",
+  "cap_bytes": 15000000000,
+  "original_results_archive": "archives\\cpu_v1.zip"
+}
